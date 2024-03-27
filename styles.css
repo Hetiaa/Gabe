@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .containerp2 {
+    max-width: 1100px;
+    margin-top: -858px;
+    margin-left: 40px;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .containerv{
+    margin-top: 40px;
+    margin-left: 1170px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    }
+
+
+  .containerx {
+    max-width: 400px;
+    max-height: 745px;
+    margin-top: -865px;
+    margin-left: 1400px;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .containerf {
+    width: 80px;
+    height: 80px;
+    margin-left: 1720px;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .containerf2 {
+    width: 80px;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 1720px;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: scaleX(-1);
+  }
+
+  .profile-picture {
+    float: left;
+    width: 30%;
+  }
+  
+  .profile-picture img {
+    width: 70%;
+    height: auto;
+  }
+  
+  .profile-info {
+    float: right;
+    width: 60%;
+    padding: 15px;
+  }
+  
+  .profile-info h1 {
+    font-size: 35px;
+    margin-top: 0;
+  }
+  
+  .profile-info p {
+    margin: 0 0 5px;
+    font-size: 20px;
+  }
+  
+  .profile-info p strong {
+    font-weight: bold;
+  }
+  
+  .pageg{
+    font-size: 28px;
+    margin-left:25px;
+    margin-right: 25px;
+    text-align: justify;
+  }
+
+  .bg {
+    background-image: radial-gradient(circle, rgba(255,255,255,0), rgba(0,0,0,1)), url(steam.png);
+    background-position: cover;
+  }
+
+  p.s{
+    margin-left: 40px;
+    color: #ffffff38;
+  }
