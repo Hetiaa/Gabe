@@ -2,42 +2,45 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  overflow:hidden;
+  max-height: 1000px;
+  background-image: radial-gradient(circle, rgba(255,255,255,0), rgba(0,0,0,1)), url(steam.png);
+  background-position: cover;
 }
 
 .container {
+  position: relative;
   max-width: 800px;
-  margin: 40px auto;
+  margin: 40px;
+  left: 500px;
   background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 .containerp2 {
-  position: fixed;
+  position: relative;
   max-width: 1100px;
   left: 40px;
-  top: 40px;
+  bottom: 785px;
   background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 .containerv{
-  position: fixed;
+  position: relative;
+  max-width: 660px;
   top: 40px;
-  right: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  left: 1180px;
   overflow: hidden;
   }
 
 
 .containerx {
-  position:fixed;
-  right: 80px;
-  top:40px;
+  position:relative;
+  left: 1400px;
+  bottom: 985px;
   max-width: 400px;
   max-height: 745px;
   width: 100%;
@@ -45,26 +48,24 @@ body {
 }
 
 .containerf {
-  position: fixed;
-  bottom: 40px;
-  right: 80px;
+  position: relative;
+  bottom: 140px;
+  left: 1720px;
   width: 80px;
   height: 80px;
   background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
 .containerf2 {
-  position: fixed;
-  bottom: 40px;
-  right: 80px;
+  position: relative;
+  top: 84px;
+  left: 1720px;
   width: 80px;
   height: 80px;
   background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transform: scaleX(-1);
 }
@@ -74,10 +75,8 @@ body {
   margin: 10px auto;
   background-image: radial-gradient(circle, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
   border-radius: 16px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-
 
 .profile-picture {
   float: left;
@@ -116,14 +115,11 @@ body {
   text-align: justify;
 }
 
-.bg {
-  background-image: radial-gradient(circle, rgba(255,255,255,0), rgba(0,0,0,1)), url(steam.png);
-  background-position: cover;
-}
 
 p.s{
-  margin-left: 40px;
-  margin-top:-20px;
+  position: relative;
+  left: 40px;
+  bottom: 20px;
   color: #ffffff38;
 }
 
